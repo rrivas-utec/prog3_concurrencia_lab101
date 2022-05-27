@@ -18,3 +18,9 @@
     t1.detach();
 
 7. Las funciones asignadas a los hilos no debe tener valor de retorno, ser del tipo void
+
+8. Diferentes formas de llamar un hilo
+    - Parametros con valor
+    - Parametros por referencia
+    - Usando Lambdas
+    - Llamando metodos de un objeto
