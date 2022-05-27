@@ -1,0 +1,20 @@
+1. Libreria de Hilos
+    #include <thread>
+
+2. Tener una funcion que almacene las instrucciones del Hilo
+
+3. Crear hilo
+    thread t1
+
+4. Asignarle la funcion al hilo
+    thread t1(funcion); // Usando Constructor
+
+    t1 = thread(funcion); // Por asignacion
+
+5. Unir el hilo con el hilo principal
+    t1.join()
+
+6. Desconectar el hilo del hilo principal
+    t1.detach();
+
+7. Las funciones asignadas a los hilos no debe tener valor de retorno, ser del tipo void

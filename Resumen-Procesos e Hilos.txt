@@ -1,0 +1,15 @@
+1. Programa se ejecutan en Procesos Aislados y estan definidos por SO.
+2. Procesos estan conformados por diferentes componentes
+	- Recursos Compartidos (Memoria de la Data, Codigo, Conexiones Ext)
+	- Los Hilos
+3. Hilos son las unidades minimas de ejecucion de codigo
+	Hilos Logicos
+		- CI
+		- Registros
+		- Stacks
+		Tambien se le conoce como hilos de usuario
+		- Un numero indeterminados
+	Hilos Fisicos
+		- Hypethread (Hilos dentros de los Cores)
+		- Un numero determinado
+		- Los manipula directamente el SO
